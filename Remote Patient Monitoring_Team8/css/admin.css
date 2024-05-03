@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.menu {
+    border-right: 1.5px solid rgb(200, 200, 200); /* Changed border color */
+    width: 21%;
+    height: 100vh;
+    box-shadow: 0 0px 0px 2px rgba(200, 200, 200, 0.3); /* Changed box shadow color */
+}
+
+.dash-body {
+    width: 79%;
+    height: 100vh;
+}
+
+.menu-container {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.profile-title {
+    font-weight: 500;
+    color: #2e3a59; /* Changed title color */
+    font-size: 22px;
+    margin: 0;
+    text-align: left;
+    padding-left: 8%;
+}
+
+.profile-subtitle {
+    font-weight: 300;
+    color: #6b7c93; /* Changed subtitle color */
+    font-size: 15px;
+    margin: 0;
+    text-align: left;
+    padding-left: 8%;
+}
+
+.logout-btn {
+    margin-top: 30px;
+    width: 85%;
+    background-color: #ff4d4d; /* Changed button background color */
+    color: #fff; /* Changed button text color */
+}
+
+.profile-container {
+    border-bottom: 1.5px solid rgb(200, 200, 200); /* Changed border color */
+    padding-top: 18%;
+    padding-bottom: 12%;
+    text-align: center;
+}
+
+.heading-main12 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #592e39; /* Changed heading color */
+}
+
+.heading-sub12 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: right;
+    color: #6b7c93; /* Changed heading color */
+}
+
+.header-search {
+    display: flex;
+    justify-content: center;
+}
+
+.header-searchbar {
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.705);
+    border: 0.5px solid rgba(200, 200, 200, 0.884); /* Changed border color */
+}
+
+.add-doc-form-container {
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.menu-item {
+    font-weight: 500;
+    text-align: left;
+    padding: 10px 20px;
+    color: #2e3a59; /* Changed menu item color */
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.menu-item.active {
+    color: #ff4d4d; /* Changed active menu item color */
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background-color: #2e3a59; /* Changed button background color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff4d4d; /* Changed button hover background color */
+}
